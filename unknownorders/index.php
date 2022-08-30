@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>어떤 질서들</title>
+    <link rel="stylesheet" href="src/css/style.css">
+</head>
+<body>
+    <a href="index.html"><h1>어떤 질서들</h1></a>
+    <button class="button-add" id="add">질서<br>공유하기</button>
+    <button class="button-style" id="style">다른<br>모습으로</button>
+    <div class="section-form">
+    <form action="http://jaeyeonkim.kr">
+    <label for="name">당신의 이름</label>
+    <input type="text" id="name" name="name" minlength="1" maxlength="8">
+    <label for="url">어떤 질서의 링크를 넣어주세요.</label>
+    <input type="url" id="url">
+    <label for="title">질서의 제목</label>
+    <input type="text" id="title">
+    <div class="button-submit">
+    <input type="submit" value="공유하기">
+    </div>
+    </form>
+    </div>
+    <div class="section">
+        <ul class="web-grid">
+            <?php
+                echo "php";
+            ?>
+            <li class="item">
+                <a href="https://yirang.neocities.org">
+                    <div class="tag">이랑의 질서, 네오시티</div>
+                    <div class="web-block"><img src="src/images/web-capture/yirang.png" class="web-img"></div>
+                </a>
+            </li>
+            <li class="item">
+                <a href="https://jaeyeonkim.neocities.org">
+                    <div class="tag">재연의 질서, 네오시티</div>
+                    <div class="web-block"><img src="src/images/web-capture/jaeyeon.png" class="web-img"></div>
+                </a>
+            </li>
+            <li class="item">
+                <a href="https://namename.neocities.org">
+                    <div class="tag">이름의 질서, 네오시티</div>
+                    <div class="web-block"><img src="src/images/web-capture/name.png" class="web-img"></div>
+                </a>
+            </li>
+            <li class="item">
+                <a href="https://junsu.neocities.org">
+                    <div class="tag">준수의 질서, 네오시티</div>
+                    <div class="web-block"><img src="src/images/web-capture/junsu.png" class="web-img"></div>
+                </a>
+            </li>
+            <li class="item">
+                <a href="https://suzinkwon.neocities.org">
+                    <div class="tag">수진의 질서, 네오시티</div>
+                    <div class="web-block"><img src="src/images/web-capture/suzin.png" class="web-img"></div>
+                </a>
+            </li>
+            <li class="item">
+                <a href="https://yeolumii.neocities.org">
+                    <div class="tag">열음의 질서, 네오시티</div>
+                    <div class="web-block"><img src="src/images/web-capture/yeolumii.png" class="web-img"></div>
+                </a>
+            </li>
+            <li class="item">
+                <a href="https://sonbino.neocities.org">
+                    <div class="tag">빈오의 질서, 네오시티</div>
+                    <div class="web-block"><img src="src/images/web-capture/bino.png" class="web-img"></div>
+                </a>
+            </li>
+            <li class="item">
+                <a href="https://semi.neocities.org">
+                    <div class="tag">세미의 질서, 네오시티</div>
+                    <div class="web-block"><img src="src/images/web-capture/semi.png" class="web-img"></div>
+                </a>
+            </li>
+            <li class="item">
+                <a href="https://hoje.neocities.org">
+                    <div class="tag">재호의 질서, 네오시티</div>
+                    <div class="web-block"><img src="src/images/web-capture/hojae.png" class="web-img"></div>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <script src="src/js/jquery.min.js"></script>
+    <script src="src/js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,201 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+  font-weight: normal;
+  font-style: normal;
+}
+button,
+input,
+select,
+textarea {
+  margin: 0;
+}
+textarea {
+  font-family: Pretendard, BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+html {
+  font-size: 16px;
+  line-height: 1.5;
+}
+body {
+  font-family: Pretendard, BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight:bold;
+  font-style: normal;
+  word-break: keep-all;
+  padding: 0.5rem;
+  background: yellow;
+background-color: #f7ff00;
+background-image: url("https://www.transparenttextures.com/patterns/dark-circles.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+background-color: #f7ff00;
+
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */  color: blue;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+body {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+ul {
+  list-style: none;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+h1 {
+  font-size: 4rem ;
+  margin-bottom: 0.5rem;
+  padding-left: 1rem;
+  font-weight: 900;
+  mix-blend-mode: hard-light;
+}
+form {
+  margin-bottom: 0.5rem;
+}
+button {
+  line-height: 1.3;
+}
+input[type="text"],input[type="url"],input[type="submit"],textarea {
+  color: inherit;
+  border-radius: 2px;
+  border: 0px;
+  background-color :blueviolet; 
+
+}
+.button-submit {
+  display: inline-block;
+  text-align: right;
+  align-content: right;
+}
+
+.section {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.section-form {
+  display: none;
+  margin: 0.5rem;
+  padding: 1rem;
+  background: yellow;
+  box-shadow:  8px 8px 16px #181818,
+             -8px -8px 16px #2a2a2a;
+
+}
+.index {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -.5rem;
+}
+
+.tag {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+  margin-top: 0.8rem;
+  margin-bottom: 0.4rem;
+  margin-left: 0.8rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  background: blueviolet;
+}
+.web-grid{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+
+}
+.item {
+
+  transition: 0.5s;
+  margin: 0.5rem;
+  background-color: blue;
+background-image: url("https://www.transparenttextures.com/patterns/grid-me.png");/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+  box-shadow:  1rem;
+}
+.item:hover {
+  background-color: blueviolet;
+  background-image: url("https://www.transparenttextures.com/patterns/grid-me.png");
+  box-shadow:  8px 8px 26px blue,
+             -8px -8px 26px blue;
+}
+
+.web-block {
+  display: block;
+  max-width: 300px;
+  height: auto;
+
+}
+.web-img {
+  width: 100%;
+}
+.button-add {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: -0.5rem;
+  width: 6rem;
+  height: 6rem;
+  margin: 1rem;
+  border: 2px solid blue;
+  color: inherit;
+  transition: 0.5s;
+  border-radius: 50%;
+  background: blue;
+
+}
+
+.button-add:hover {
+  background: blueviolet;
+
+}
+.button-style {
+  display: block;
+  position: absolute;
+  right: 8rem;
+  top: -0.5rem;
+  width: 6rem;
+  height: 6rem;
+  margin: 1rem;
+  border: 2px solid blue;
+  color: inherit;
+  transition: 0.5s;
+  border-radius: 50%;
+  background: blue;
+
+}
+
+.button-style:hover {
+  background: blueviolet;
+
+}
+.button-style2 {
+  display: block;
+  position: absolute;
+  right: 8rem;
+  top: -0.5rem;
+  width: 6rem;
+  height: 6rem;
+  margin: 1rem;
+  border: 2px solid blue;
+  color: inherit;
+  transition: 0.5s;
+  border-radius: 50%;
+  background: blue;
+
+}
+
+.button-style2:hover {
+  background: blueviolet;
+
+}
